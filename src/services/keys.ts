@@ -9,4 +9,6 @@ export const usernamekey = ()=> 'usernames';
 // Item 
 export const itemKey = (itemId: string) => `items#${itemId}`;
 export const itemByViewsKey = ()=> `items:views`
+export const itemsByEndingAtKey = ()=> 'items:endingAt';
+export const itemsViewkey = (itemId: string)=> `items:views#${itemId}` 
 
