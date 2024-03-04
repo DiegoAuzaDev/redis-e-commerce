@@ -11,4 +11,5 @@ export const itemKey = (itemId: string) => `items#${itemId}`;
 export const itemByViewsKey = ()=> `items:views`
 export const itemsByEndingAtKey = ()=> 'items:endingAt';
 export const itemsViewkey = (itemId: string)=> `items:views#${itemId}` 
-
+export const bidHistoryKey = (itemId: string) => `history${itemId}`
+export const itemsByPriceKey = ()=> "items:price";
